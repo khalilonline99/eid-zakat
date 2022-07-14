@@ -1,0 +1,102 @@
+
+body {
+    margin: 0;
+}
+
+header {
+    background-image:  linear-gradient(90deg, rgba(0, 0, 0, 0.699) 55%, rgba(255,255,255,0) 100%), url(../media/images/header-bg.png);
+    background-repeat: no-repeat;
+    min-height: 700px;
+}
+
+#headerLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 180px;
+    padding-top: 180px;
+}
+
+header h1 {
+    font-size: 55px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+header p {
+    font-family: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    width: 40%;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+header button {
+  align-items: center;
+  /* appearance: none; */
+  background-image: radial-gradient(100% 100% at 100% 0, rgb(255, 137, 101) 0, #EF233C 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Inter', sans-serif;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+
+header button:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #68000c 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+header button:active {
+  box-shadow: #3f0007 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
+
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Lobster Two', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+
+
+
+
+
+
+
+
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Lobster Two', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
