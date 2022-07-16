@@ -96,22 +96,29 @@ header p {
   margin-right: 180px;
 }
 
-#video-details h2 {
+/* #video-details h2 {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 45px;
   margin: 0;
 
+} */
+
+.heading-2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  margin: 0;
+  
 }
 
-#video-details p {
+.sub-heading {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 18px;
   /* width: 400px; */
   color: #707070;
 }
-
 
 #section-three {
   display: flex;
@@ -130,12 +137,13 @@ header p {
   margin-left: 180px;
 }
 
-#section-three h2 {
+/* #section-three h2 {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 45px;
   margin: 0;
-}
+} */
+
 
 #section-three p {
   font-family: 'Poppins', sans-serif;
@@ -148,6 +156,8 @@ header p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 30px;
+  margin-top: 80px;
 
 }
 
@@ -155,20 +165,52 @@ header p {
   margin: 60px 0;
 }
 
-#pink-details h2{
+/* #pink-details h2{
   margin: 5px 0;
-}
+
+} */
 
 #pink-details p{
   margin: 5px 0;
 }
 
 .pink-box {
+  display: flex;
   background-color: #FEF4F5;
   width: 460px;
+  height: 215px;
   margin: 5px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
+
+.pink-img{
+  padding: 20px;
+}
+.pink-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.pink-box-text {
+  display: flex;
+  flex-direction: row;
+}
+
+.pink-text h3 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.pink-text p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #707070;
+  padding-right: 8px;
+  margin-top: 10px;
+}
+
 
 #pink-container{
   display: flex;
@@ -179,11 +221,18 @@ header p {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
 
+#random-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 
 }
 
-
+#random-img img {
+  padding: 15px;
+}
 
 /* font-family: 'Inter', sans-serif;
 font-family: 'Lobster Two', cursive;
